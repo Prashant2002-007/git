@@ -1,1 +1,86 @@
-this is johndevil
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prime Video Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #0f171e;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #00a8e1;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    .hero {
+      background-image: url('https://m.media-amazon.com/images/G/01/digital/video/hero/Movies_HeroBanner._CB1551377682_.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      padding-left: 50px;
+    }
+    .hero h2 {
+      font-size: 40px;
+      max-width: 500px;
+    }
+    .section {
+      padding: 20px;
+    }
+    .section h3 {
+      margin-bottom: 10px;
+    }
+    .carousel {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+    }
+    .carousel img {
+      height: 200px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prime Video</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">TV Shows</a>
+      <a href="#">Movies</a>
+      <a href="#">My Stuff</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Watch the latest movies and shows now</h2>
+  </div>
+
+  <div class="section">
+    <h3>Featured</h3>
+    <div class="carousel">
+      <img src="https://m.media-amazon.com/images/I/51NiGlapXlL._AC_SY445_.jpg" alt="Movie 1" />
+      <img src="https://m.media-amazon.com/images/I/81nC4u9eYfL._AC_SY679_.jpg" alt="Movie 2" />
+      <img src="https://m.media-amazon.com/images/I/91Pj0x3eFOL._AC_SL1500_.jpg" alt="Movie 3" />
+      <img src="https://m.media-amazon.com/images/I/71niXI3lxlL._AC_SY679_.jpg" alt="Movie 4" />
+    </div>
+  </div>
+</body>
+</html>
